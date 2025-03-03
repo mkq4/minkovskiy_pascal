@@ -1,0 +1,1 @@
+# minkovskiy_pascal
