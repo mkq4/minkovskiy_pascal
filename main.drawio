@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="dB0rI4Xn0fTZoM4PDedR">
+    <mxGraphModel dx="420" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eisu4wCoUDYtpyNRXziw-1" target="Eisu4wCoUDYtpyNRXziw-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-1" value="Начало&lt;div&gt;KeyDown&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-2" value="Конец&lt;div&gt;KeyDown&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923.5" y="370" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Eisu4wCoUDYtpyNRXziw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968.521739130435" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eisu4wCoUDYtpyNRXziw-55" target="Eisu4wCoUDYtpyNRXziw-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-55" value="&lt;div&gt;case key of&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; VK_Up: begin y := y - 5; y1 := y1 - 5 end; // вверх&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; VK_Down: begin y += 5; y1 += 5 end; // вниз&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; VK_Left: begin x := x - 5; x1 := x1 - 5 end; // влево&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; VK_Right: begin x := x + 5; x1 := x1 + 5 end; // вправо&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; VK_A: scale := scale * 1.1; // масштаб +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Vk_Z: scale := scale / 1.1; // масштаб -&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; vk_s: if m &amp;gt; 0 then m -= 1; // глубинa рекурсии +&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; vk_x: if m &amp;lt; 4 then m += 1; // глубинa рекурсии -&lt;/div&gt;&lt;div&gt;&amp;nbsp; end;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="90" width="283" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-92" value="настраиваем хоткеи" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="145" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-93" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="90" width="50" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Eisu4wCoUDYtpyNRXziw-55" target="Eisu4wCoUDYtpyNRXziw-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-95" value="Draw(x * scale, y * scale, x1 * scale, y1 * scale);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="909" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eisu4wCoUDYtpyNRXziw-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-97" value="Начало&lt;div&gt;main&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-100" value="&lt;span style=&quot;text-align: left;&quot;&gt;x := 100; // X start&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; y := 200; // Y start&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; x1 := 400; // X end&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; y1 := 200; // Y end&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; m := 3; // глубина рекурсии start&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; scale := 1.0; // масштаб start&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1266.75" y="90" width="176.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Eisu4wCoUDYtpyNRXziw-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-102" value="Draw(x, y, x1, y1); // линия 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-103" value="Конец&lt;div&gt;main&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="310" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eisu4wCoUDYtpyNRXziw-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Eisu4wCoUDYtpyNRXziw-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355.021739130435" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
