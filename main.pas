@@ -19,7 +19,7 @@ begin
 end;
 
 
-begin
+begin // ПАРАМЕТРИЗАЦИЯ
   LockDrawing; // оптимизация отрисовки
   x := 100; // X start
   y := 200; // Y start
