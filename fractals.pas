@@ -54,8 +54,8 @@ begin
 
   // Базовый случай рекурсии: если отрезок слишком короткий, просто рисуем его
   if r < 4**m then
-    RLine(x, y, x1, y1)
-  else
+    RLine(x, y, x1, y1) // БАЗОВЫЙ СЛУЧАЙ
+  else // ДЕКОМПОЗИЦИЯ
   begin
     var angle := GetAngle(x, y, x1, y1); // Угол направления отрезка
     var angleP := DegToRad(angle + 90); // Угол для выступа вверх
